@@ -1,0 +1,44 @@
+body {
+	text-align: center;
+    font-family: Helvetica, Arial, "Lucida Grande", sans-serif
+}
+
+#board {
+	margin: auto;
+    width: 700px;
+	background: #0032cc;
+}
+
+#board {
+    padding: 15px;
+	border: 2px solid #333;
+    border-spacing: 3px;
+}
+
+#board td {
+    width: 90px;
+    height: 90px;
+	border: 2px solid #333;
+	border-radius: 45px;
+	background: #fff;
+}
+
+#board .red_disc, #p .red_disc {
+    background: #ff0000;
+}
+
+#board .yellow_disc, #p .yellow_disc {
+    background: #ffff00;
+}
+
+#p {
+	margin: 20px 0;
+	font-weight: bold;
+	height: 30px;
+	line-height: 30px;
+}
+
+#p span {
+	display: inline-block;
+	width: 80px;
+}
